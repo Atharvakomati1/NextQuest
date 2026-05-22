@@ -9,7 +9,7 @@ A sleek, modern web app for tracking your video‑game backlog. You can **add**,
 
 1. **Clone the repo** (or copy the folder) to your workstation.
 2. **Install Node.js** (v22 or newer). You can download it from https://nodejs.org/.
-3. Open a terminal in the project root (`./Game_Tracker`).
+3. Open a terminal in the project root (`./NextQuest`).
 4. **Install dependencies**:
    ```bash
    npm install
