@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spin the Wheel | NextQuest</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="btn">← Back to Tracker</a>
+  </header>
+
+  <div class="wheel-container">
+    <h1 class="mood-title">🎡 Spin the Wheel</h1>
+    
+    <div class="wheel-wrapper" id="wheelWrapper">
+      <div class="pointer">▼</div>
+      <canvas id="wheelCanvas" width="500" height="500"></canvas>
+    </div>
+
+    <div style="margin-top: 2rem;">
+      <button class="btn btn-primary" id="spinBtn" style="font-size: 1.5rem; padding: 1rem 3rem;">SPIN!</button>
+    </div>
+
+    <dialog id="winnerModal" style="text-align: center;">
+      <div id="wheelResult">
+        <!-- Injected via JS -->
+      </div>
+      <button class="btn btn-primary" style="margin-top: 2rem; width: 100%;" onclick="document.getElementById('winnerModal').close()">Awesome!</button>
+    </dialog>
+  </div>
+
+  <script src="/js/wheel.js"></script>
+</body>
+</html>

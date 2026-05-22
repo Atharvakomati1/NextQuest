@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mood Picker | NextQuest</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="btn">← Back to Tracker</a>
+  </header>
+
+  <div class="mood-container">
+    <h1 class="mood-title">🎯 What's your vibe tonight?</h1>
+    
+    <div class="mood-grid">
+      <button class="mood-btn" data-mood="chill">
+        <span class="emoji">🧘</span>
+        <span>Chill</span>
+      </button>
+      <button class="mood-btn" data-mood="competitive">
+        <span class="emoji">⚔️</span>
+        <span>Competitive</span>
+      </button>
+      <button class="mood-btn" data-mood="quick">
+        <span class="emoji">⏱️</span>
+        <span>Quick Session</span>
+      </button>
+      <button class="mood-btn" data-mood="lost">
+        <span class="emoji">🌍</span>
+        <span>Get Lost</span>
+      </button>
+    </div>
+
+    <div class="mood-result" id="moodResult">
+      <!-- Injected via JS -->
+    </div>
+  </div>
+
+  <script src="/js/mood.js"></script>
+</body>
+</html>
