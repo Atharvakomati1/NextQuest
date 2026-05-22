@@ -1,7 +1,7 @@
 # Answers.md
 
 ## How to run
-1. Clone or copy the project folder `./Game_Tracker`.
+1. Clone or copy the project folder `./NextQuest`.
 2. Open a terminal in that folder.
 3. Install dependencies:
    ```bash
